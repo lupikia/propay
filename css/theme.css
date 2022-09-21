@@ -1,0 +1,121 @@
+body{
+    font-family: Arial;
+    background: #F0F4FA;
+    font-size: 14px;
+    color: #7C7C7E;
+}
+
+.btn-round-10{
+    border-radius: 10px;
+}
+.btn-round{
+    border-radius: 25px;
+}
+
+.error-brown-bg label.error{
+    color: White;
+}
+
+.page-general{
+    padding-top: 40px;
+}
+.error-pop{
+    background: #ff4949;
+    color: white;
+}
+
+.success-pop{
+    background: #778A31;
+    color: white;
+}
+
+.error.field-data{
+    border-color: red;
+}
+
+label.error{
+    font-size: 12px;
+    font-weight: normal !important;
+    float: right;
+    width: 100%;
+}
+
+.hide-block{
+
+    display: none;
+}
+
+.align-c{
+    text-align: center;
+}
+
+.align-r{
+    text-align: right;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: transparent;
+}
+/*END----shared------------------*/
+
+.btn-primary{
+    color: white;
+    background: #1B368F;
+}
+
+a{
+    color: #1B368F;
+}
+
+form label{
+    font-weight: 400;
+    color: black;
+}
+
+.form-box h1{
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.sign-in-form .error{
+    color: red;
+
+}
+
+.sign-in-form button{
+    width: 70%;
+}
+
+#validate-form p{
+    text-align: left;
+}
+
+.content{
+    padding: 25px;
+}
+
+@media only screen and (min-width: 736px)
+{
+    .form-box{
+        width: 100%;
+        height: auto;
+        padding: 10% 15%;
+        box-shadow: 1px 1px 65px -15px #6F6F70;
+        border-radius: 2%;
+        margin: auto;
+    }
+
+    #validate-form p{
+        text-align: right;
+    }
+
+}
+
+
+
+
+
